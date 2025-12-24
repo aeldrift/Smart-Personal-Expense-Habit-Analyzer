@@ -15,3 +15,19 @@ for i in range(n):
     amount = int(input("Enter amount: "))
     category = input("Enter category: ")
     note = input("Enter note: ")
+
+    e = Expense(amount, category, note)
+    expenses.append(e)
+
+    print("Expense added successfully")
+
+    choice = input("Do you want to add another expense? (y/n): ")
+    if choice.lower() != "y":
+        break
+
+print("\nAll Expenses:")
+for e in expenses:
+    print(e.amount, e.category, e.note) #Example: e1 =Expense(250, "food", "Lunch at canteen")
+
+
+
