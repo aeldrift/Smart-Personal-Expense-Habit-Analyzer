@@ -23,7 +23,7 @@ for i in range(n):
     print("Expense added successfully")
 
     # choice = input("Do you want to add another expense? (y/n): ")
-    if choice.lower() != "y":
+    # if choice.lower() != "y":
         break
 
 print("\nAll Expenses:")
