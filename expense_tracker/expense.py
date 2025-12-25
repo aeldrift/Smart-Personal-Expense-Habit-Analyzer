@@ -6,6 +6,7 @@ class Expense:
         self.note = note
 
 expenses = []
+
 # while True: or
 
 n = int(input("How many expenses do you want to add?"))
@@ -21,7 +22,7 @@ for i in range(n):
 
     print("Expense added successfully")
 
-    choice = input("Do you want to add another expense? (y/n): ")
+    # choice = input("Do you want to add another expense? (y/n): ")
     if choice.lower() != "y":
         break
 
